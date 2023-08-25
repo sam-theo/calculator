@@ -1,0 +1,65 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    width: 35vw;
+    background-color: black;
+    padding-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.cleardelete{
+    display: flex;
+    justify-content: space-around;
+    width: 33vw;
+}
+
+.bigbtn{
+    border-radius: 0.5vw;
+    border-style: solid;
+    width: 14.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin-top: 1vh;
+    background-color: grey;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.btn{
+    width: 6.5vw;
+    height: 6.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vw;
+    border-style: solid;
+    margin: 1vh;
+    background-color: grey;
+}
+
+.screen{
+    height: 10vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 5px;
+}
